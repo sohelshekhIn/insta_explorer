@@ -14,9 +14,21 @@ If you don't have chromedriver follow this [blog](http://jonathansoma.com/lede/f
 Download the files in your prefer method (Downloading ZIP or through the url)
 ```
 pip install -r requirements.txt
-py main.py
 ```
 
+##### Before runing the main.py file, make sure you change the following things in the code
+
+Chromedriver Path: Line 15
+Instagram Username and Password: Line 26 & 27
+Hastags you want to interect: Line 44
+Number of people you want to follow per tag (default 10): Line 80
+.
+.
+##### Now you can run the main.py file
+.
+```
+py main.py
+```
 After runnning the above commands, a chrome window will appear and will start its work
 
 ## License
